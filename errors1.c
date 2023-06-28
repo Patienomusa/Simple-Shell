@@ -25,7 +25,7 @@ return (-1);
 return (result);
 }
 /**
- * print_error – error message printed
+ * print_error – error message to be printed
  * @info: the parameter & return info struct
  * @estr: string containing specified error type
  * Return: 0 if no numbers in string, converted number otherwise * -1 on error
@@ -77,7 +77,7 @@ count++;
 return (count);
 }
 /**
- * convert_number – function converter, a clone of ito
+ * convert_number – function converter, a clone of itoa
  * @num: number
  * @base: base
  * @flags: argument flags
